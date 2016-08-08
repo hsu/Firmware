@@ -25,6 +25,7 @@ param set COM_RC_IN_MODE 1
 param set NAV_DLL_ACT 2
 param set NAV_ACC_RAD 15.0
 param set FW_THR_IDLE 0.6
+param set FS_GCS_ENABLE 2
 replay tryapplyparams
 simulator start -s
 rgbledsim start
