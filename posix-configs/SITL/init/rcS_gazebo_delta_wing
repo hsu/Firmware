@@ -60,5 +60,3 @@ mavlink stream -r 10 -s OPTICAL_FLOW_RAD -u 14556
 sdlog2 start -r 200 -e -t -a
 mavlink boot_complete
 replay trystart
-sleep 13
-commander takeoff
