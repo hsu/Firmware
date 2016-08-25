@@ -39,6 +39,9 @@
  */
 PARAM_DEFINE_INT32(MAV_SYS_ID, 1);
 
+// required by the UCTF payload
+PARAM_DEFINE_INT32(SYSID_THISMAV, 1);
+
 /**
  * MAVLink component ID
  * @group MAVLink
